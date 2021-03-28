@@ -51,6 +51,19 @@
     height: 100px;
 }
 
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login i {
+    font-size: 40px;
+    color: #3D6670;
+    padding: 0 15px;
+}
+
 .main {
     width: 80%;
     height: 70vh;
@@ -63,7 +76,7 @@
     position: absolute;
     right: 15px;
     min-width: 30%;
-    height: 15%;
+    min-height: 15%;
     color: #3D6670;
     background: linear-gradient(to right bottom,
      rgba(255, 255, 255, .4),
