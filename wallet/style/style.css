@@ -70,6 +70,7 @@
     margin: 25px auto;
     padding: 15px;
     position: relative;
+    z-index: 10;
 }
 
 .balance {
@@ -95,4 +96,29 @@
 .balance__sum span {
     font-weight: 600;
     font-size: 20px;
+}
+
+.square-1 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    z-index: 1;
+}
+.square-2 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    right: 8%;
+    z-index: 1;
+}
+.square-3 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 10%;
+    left: 8%;
+    z-index: 1;
 }
