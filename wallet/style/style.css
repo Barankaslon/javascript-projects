@@ -68,13 +68,14 @@
     width: 80%;
     height: 70vh;
     margin: 25px auto;
-    padding: 15px;
     position: relative;
     z-index: 10;
+    backdrop-filter: blur(10px);
 }
 
 .balance {
     position: absolute;
+    top: 15px;
     right: 15px;
     min-width: 30%;
     min-height: 15%;
@@ -102,23 +103,83 @@
     width: 100px;
     height: 100px;
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 8%;
+    border:none;
     z-index: 1;
 }
 .square-2 {
     width: 100px;
     height: 100px;
     position: absolute;
-    top: 40%;
+    top: 50%;
     right: 8%;
+    border:none;
     z-index: 1;
 }
 .square-3 {
     width: 100px;
     height: 100px;
     position: absolute;
-    bottom: 10%;
+    bottom: 8%;
     left: 8%;
+    border:none;
     z-index: 1;
+}
+
+.dashboard {
+    height: 100%;
+    width: 30%;
+    position: absolute;
+    color: #3D6670;
+    background: linear-gradient(to right bottom,
+     rgba(255, 255, 255, .4),
+     rgba(255, 255, 255, .2));
+    border: none;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.dashboard a {
+    color: #3D6670;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.tools {
+    margin-top: 30px;
+}
+
+.invest,
+.savings,
+.income {
+    border: none;
+    margin: 10px;
+    padding: 10px 0;
+    background: linear-gradient(to right bottom,
+    rgba(255, 255, 255, .4),
+    rgba(255, 255, 255, .2));
+}
+
+
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user img {
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    background: #fff;
+    background: linear-gradient(to right bottom,
+    rgba(255, 255, 255, .4),
+    rgba(255, 255, 255, .2));
+    border-radius: 50%;
+}
+
+
+.footer {
+    text-align: center;
 }
