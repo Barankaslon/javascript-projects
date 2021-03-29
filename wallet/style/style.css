@@ -83,7 +83,7 @@
     background: linear-gradient(to right bottom,
      rgba(255, 255, 255, .4),
      rgba(255, 255, 255, .2));
-     box-shadow: 6px 6px 20px rgba(122, 122, 122, .2);
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, .2);
     border: none;
     text-align: center;
 }
@@ -109,17 +109,17 @@
     z-index: 1;
 }
 .square-2 {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     position: absolute;
     top: 50%;
-    right: 8%;
+    right: 5%;
     border:none;
     z-index: 1;
 }
 .square-3 {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     position: absolute;
     bottom: 8%;
     left: 8%;
@@ -179,6 +179,92 @@
     border-radius: 50%;
 }
 
+.income__block {
+    width: 60%;
+    height:70%;
+    background: linear-gradient(to right bottom,
+    rgba(255, 255, 255, .4),
+    rgba(255, 255, 255, .2));
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, .2);
+}
+
+.wage {
+    min-width:30%;
+    min-height: 40%;
+    border: none;
+    background: linear-gradient(to right bottom,
+    rgba(255, 255, 255, .4),
+    rgba(255, 255, 255, .2));
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, .2);
+}
+
+.wage__title {
+    font-weight: 800;
+    color: #3D6670;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.add__income {
+    border: none;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    padding: 20px;
+    color: #3D6670;
+    font-weight: 800;
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, .2);
+    transition: box-shadow 1s;
+}
+
+.add__income:hover {
+    cursor: pointer;
+    box-shadow: 15px 15px 20px rgba(88, 88, 88, 0.2);
+}
+
+.active {
+    background: linear-gradient(to right bottom,
+    rgba(255, 255, 255, .8),
+    rgba(255, 255, 255, .3));
+}
+
+.cursor {
+    transition: background .3s;
+}
+
+.cursor:hover {
+    cursor: pointer;
+    background: linear-gradient(to right bottom,
+    rgba(255, 255, 255, .8),
+    rgba(255, 255, 255, .3));
+}
+
+.wage__list {
+
+}
+
+.wage__list li {
+    font-weight: 600;
+}
+
+.wage__list span {
+    font-weight: 300;
+    padding: 0 15px;
+}
+
+
+
+.wage__total-prev {
+    display: flex;
+
+}
 
 .footer {
     text-align: center;
